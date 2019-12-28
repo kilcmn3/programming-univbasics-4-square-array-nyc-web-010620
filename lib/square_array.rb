@@ -5,6 +5,8 @@ def square_array(array)
   while count < array.length do
     newarray.push(array[count] * array[count])
     count += 1
-    return new_array
+
   end
+  puts new_array
+  return new_array
 end
